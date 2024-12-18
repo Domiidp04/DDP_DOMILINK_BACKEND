@@ -1,0 +1,18 @@
+hacer el creador de urls
+hacer el endpoint que devuelva los links por el usuario autenticado.
+
+ENDPOINTS :
+/AUTH/REGISTER -> GET
+/AUTH/LOGIN    -> GET
+
+/CLIENTS       -> GET (SEGUN USUARIO AUTHENTICADO)
+
+/LINKS         -> GET (LOS LINKS DEL USUARIO AUTHENTICADO)
+/LINKS/{ID}    -> GET (SEGUN SI PERTENECE O NO A EL)
+/LINKS         -> POST (CREAR UN LINK)
+
+/LINKS/{ID}    -> DELETE
+
+
+/LINKS/{ID}    -> UPDATE (ACTUALIZAR INFORMACION)
+
